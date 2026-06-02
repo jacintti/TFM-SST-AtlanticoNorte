@@ -4,7 +4,7 @@ Scripts de Google Earth Engine para el análisis temporal de la SST en el Atlán
 
 Repositorio de scripts de Google Earth Engine asociado al Trabajo Fin de Máster:
 
-> Domínguez Morales, J. (2026). *Análisis temporal de la temperatura superficial del mar en el Atlántico Norte (1981-2024): evolución, asimetrías regionales e influencia del Atlántico sobre el clima europeo*. Máster en Tecnologías de la Información Geográfica, UNED.
+> Domínguez Morales, J. (2026). *Análisis temporal de la temperatura superficial del mar en el Atlántico Norte (1981-2024): evolución, asimetrías regionales e influencia del Atlántico sobre el clima europeo*. Máster en Tecnologías de la Información Geográfica, UCM.
 
 ## Productos analizados
 
