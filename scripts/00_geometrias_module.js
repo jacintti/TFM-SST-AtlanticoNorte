@@ -40,10 +40,21 @@ exports.AN = ee.Geometry.Rectangle([-80, 20, 20, 75]);
 // ----------------------------------------------------------------------------
 // 2. POLÍGONO DE EXCLUSIÓN
 // ----------------------------------------------------------------------------
-exports.MED = ee.Geometry.Rectangle([-6, 30, 20, 45]);
+//exports.MED = ee.Geometry.Rectangle([-6, 30, 20, 45]);
+exports.MED = ee.Geometry.Polygon([
+  [
+    [-6, 30],   // SW
+    [20, 30],   // SE
+    [20, 45.9],   // NE
+    [3, 45.9],    // Costa sur de Francia
+    [0, 44],
+    [-2, 43],
+    [-4, 42],
+    [-6, 40],   // Baja por el Atlántico portugués
+    [-6, 30]    // Cierre
+  ]
+]);
 //   Mediterráneo. Se sustrae de AN en cualquier cálculo oceánico.
-//   Por simplicidad geométrica incluye una franja del Cantábrico occidental;
-//   esta limitación se documenta en el subapartado 3.1.2 del TFM.
 
 
 // ----------------------------------------------------------------------------
