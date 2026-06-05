@@ -23,7 +23,7 @@ La carpeta `scripts/` contiene los códigos de GEE numerados según el flujo de 
 - **07**: análisis HYCOM (temperatura y salinidad por profundidad).
 - **08**: análisis ERA5-Land (ventanas costeras).
 - **09**: exportación de productos cartográficos finales.
-
+- **10**: perfil longitudinal de la SST media a lo largo del paralelo 53°N.
 ## Uso
 
 Los scripts están diseñados para ejecutarse en Google Earth Engine Code Editor (https://code.earthengine.google.com). El módulo 00 se importa mediante `require()` desde los demás scripts.
