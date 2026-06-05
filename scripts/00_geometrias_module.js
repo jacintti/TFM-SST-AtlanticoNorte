@@ -54,8 +54,6 @@ exports.MED = ee.Geometry.Polygon([
     [-6, 30]    // Cierre
   ]
 ]);
-//   Mediterráneo. Se sustrae de AN en cualquier cálculo oceánico.
-
 
 // ----------------------------------------------------------------------------
 // 3. POLÍGONOS DE ANÁLISIS REGIONAL
